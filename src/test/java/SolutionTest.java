@@ -26,4 +26,29 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void test4(){
+        String s = "4771447713";
+        boolean expected = true;
+        boolean actual = new Solution().splitString(s);
+
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void test5(){
+        String s = "6784450000678444";
+        boolean expected = true;
+        boolean actual = new Solution().splitString(s);
+
+        Assert.assertEquals(expected, actual);
+    }
+    @Test
+    public void test6(){
+        String s = "0000016371151637114";
+        boolean expected = true;
+        boolean actual = new Solution().splitString(s);
+
+        Assert.assertEquals(expected, actual);
+    }
+
 }
